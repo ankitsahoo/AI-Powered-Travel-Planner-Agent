@@ -1,8 +1,6 @@
 ﻿# AI-Powered-Travel-Planner-Agent
-
 # Screenshot of the application
 <img width="2797" height="1504" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/21b4b3da-9aef-4154-b3b2-fb899264e9b4" />
-
 # Overview:
 The AI-Powered Travel Planner is an interactive web application that helps users plan personalized trips effortlessly. It leverages AI agents, real-time flight and hotel search APIs, and user preferences to generate a complete travel itinerary, including flights, accommodations, activities, and recommendations tailored to the user’s travel style.
 
@@ -78,5 +76,6 @@ User Input
 - AI “Hotel & Restaurant Finder” agent identifies suitable accommodations and dining options.
 - AI “Planner” agent compiles all data to generate a personalized itinerary.
 - Streamlit UI presents the results visually, including flight cards, hotel lists, and a day-by-day itinerary.
+
 
 
