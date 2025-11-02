@@ -15,6 +15,26 @@ The AI-Powered Travel Planner is an interactive web application that helps users
 - Interactive UI with Streamlit: Users can visualize flights, hotels, and itinerary with a clean, intuitive interface.
 - Sidebar Features: Travel essentials, packing checklist, visa requirements, travel insurance, and currency converter options.
 
+
+# Tech Stack Used
+
+**Frontend:**
+**Streamlit:** Interactive web application framework for Python. Provides sliders, input fields, and layout customization.
+**HTML/CSS:** Custom styling embedded in Streamlit for improved UI/UX.
+
+**Backend & AI:**
+**Python 3.x:** Core programming language for logic and API integration.
+**Gemini AI Model:** AI agents (Researcher, Planner, Hotel & Restaurant Finder) generate insights, recommendations, and itineraries.
+**Agno Framework:** Orchestrates AI agent creation, instructions, and execution.
+
+**APIs & Data Sources:**
+**SerpApi (Google Flights API):** Real-time flight search and booking data.
+**Google APIs:** Optional key usage for extended Google services.
+
+**Others:**
+**Datetime module:** For date formatting and schedule calculations.
+**JSON & OS modules:** For API handling and environment variable management.
+
 ### AI Travel Planner Workflow
 
 ```plaintext
@@ -51,33 +71,12 @@ User Input
 +----------------------------+
 
 
-# Explanation of Workflow:
+################ Explanation of Workflow:######################
 - User enters travel details and preferences in the Streamlit frontend.
 - Flight data is fetched via SerpApi's Google Flights API.
 - AI “Researcher” agent gathers destination information and activity recommendations.
 - AI “Hotel & Restaurant Finder” agent identifies suitable accommodations and dining options.
 - AI “Planner” agent compiles all data to generate a personalized itinerary.
 - Streamlit UI presents the results visually, including flight cards, hotel lists, and a day-by-day itinerary.
-
-
-# Tech Stack Used
-
-**Frontend:**
-**Streamlit:** Interactive web application framework for Python. Provides sliders, input fields, and layout customization.
-**HTML/CSS:** Custom styling embedded in Streamlit for improved UI/UX.
-
-**Backend & AI:**
-**Python 3.x:** Core programming language for logic and API integration.
-**Gemini AI Model:** AI agents (Researcher, Planner, Hotel & Restaurant Finder) generate insights, recommendations, and itineraries.
-**Agno Framework:** Orchestrates AI agent creation, instructions, and execution.
-
-**APIs & Data Sources:**
-**SerpApi (Google Flights API):** Real-time flight search and booking data.
-**Google APIs:** Optional key usage for extended Google services.
-
-**Others:**
-**Datetime module:** For date formatting and schedule calculations.
-**JSON & OS modules:** For API handling and environment variable management.
-
 
 
