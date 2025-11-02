@@ -16,20 +16,20 @@ The AI-Powered Travel Planner is an interactive web application that helps users
 
 # Tech Stack Used
 
-**Frontend:**
+- **Frontend:**
 **Streamlit:** Interactive web application framework for Python. Provides sliders, input fields, and layout customization.
 **HTML/CSS:** Custom styling embedded in Streamlit for improved UI/UX.
 
-**Backend & AI:**
+- **Backend & AI:**
 **Python 3.x:** Core programming language for logic and API integration.
 **Gemini AI Model:** AI agents (Researcher, Planner, Hotel & Restaurant Finder) generate insights, recommendations, and itineraries.
 **Agno Framework:** Orchestrates AI agent creation, instructions, and execution.
 
-**APIs & Data Sources:**
+- **APIs & Data Sources:**
 **SerpApi (Google Flights API):** Real-time flight search and booking data.
 **Google APIs:** Optional key usage for extended Google services.
 
-**Others:**
+- **Others:**
 **Datetime module:** For date formatting and schedule calculations.
 **JSON & OS modules:** For API handling and environment variable management.
 
@@ -76,6 +76,7 @@ User Input
 - AI “Hotel & Restaurant Finder” agent identifies suitable accommodations and dining options.
 - AI “Planner” agent compiles all data to generate a personalized itinerary.
 - Streamlit UI presents the results visually, including flight cards, hotel lists, and a day-by-day itinerary.
+
 
 
 
