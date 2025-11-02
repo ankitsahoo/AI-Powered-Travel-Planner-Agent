@@ -15,8 +15,9 @@ The AI-Powered Travel Planner is an interactive web application that helps users
 - Interactive UI with Streamlit: Users can visualize flights, hotels, and itinerary with a clean, intuitive interface.
 - Sidebar Features: Travel essentials, packing checklist, visa requirements, travel insurance, and currency converter options.
 
-# AI Travel Planner Workflow
+### AI Travel Planner Workflow
 
+```plaintext
 User Input
 (Departure, Destination, Dates, Preferences)
         |
@@ -77,5 +78,6 @@ User Input
 **Others:**
 **Datetime module:** For date formatting and schedule calculations.
 **JSON & OS modules:** For API handling and environment variable management.
+
 
 
